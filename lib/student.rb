@@ -6,6 +6,7 @@ class Student
   
   @@all = []
   
+  def initialize(id = nil, name, grade)
   
   def self.create_table
     sql = <<-SQL
